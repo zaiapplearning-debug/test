@@ -3,380 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>隐私政策 / Privacy Policy</title>
+    <title>隐私政策 - 识词卡</title>
     <style>
+        :root {
+            --primary: #1BA098;
+            --text-main: #2C3E50;
+            --text-secondary: #7F8C9A;
+            --bg: #F5F7F9;
+            --surface: #FFFFFF;
+            --border: #E8ECF0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.7;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
         }
-        h1, h2, h3 {
-            color: #1BA098;
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: var(--surface);
+            padding: 48px;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
         }
         h1 {
-            border-bottom: 2px solid #1BA098;
-            padding-bottom: 10px;
-            margin-top: 30px;
+            font-size: 28px;
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .last-updated {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
         }
         h2 {
-            margin-top: 30px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 5px;
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: var(--text-main);
+            font-weight: 600;
         }
         h3 {
+            font-size: 16px;
             margin-top: 20px;
-        }
-        ul, ol {
-            padding-left: 20px;
-        }
-        li {
             margin-bottom: 8px;
+            color: var(--text-main);
+            font-weight: 600;
         }
-        .section {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
+        p, li {
+            font-size: 15px;
+            color: var(--text-main);
+            margin-bottom: 12px;
         }
-        .en-section {
-            color: #555;
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
         }
-        strong {
-            color: #2c3e50;
-        }
+        li { margin-bottom: 6px; }
         a {
-            color: #1BA098;
+            color: var(--primary);
             text-decoration: none;
+            word-break: break-all;
         }
-        a:hover {
-            text-decoration: underline;
+        a:hover { text-decoration: underline; }
+        .highlight {
+            background-color: #FFF9E6;
+            padding: 16px;
+            border-radius: 8px;
+            border-left: 4px solid #F5B400;
+            margin: 16px 0;
+            font-size: 14px;
         }
-        .lang-switch {
-            text-align: right;
-            margin-bottom: 20px;
+        .contact-box {
+            background-color: var(--bg);
+            padding: 20px;
+            border-radius: 12px;
+            margin-top: 16px;
         }
-        .lang-switch a {
-            margin-left: 10px;
-            font-weight: bold;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 15px 0;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            padding: 10px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
+        .contact-box p { margin-bottom: 4px; }
+        @media (max-width: 600px) {
+            .container { padding: 24px; }
+            h1 { font-size: 24px; }
         }
     </style>
 </head>
 <body>
 
-<div class="lang-switch">
-    <a href="#zh">中文</a> | <a href="#en">English</a>
-</div>
+<div class="container">
 
-<!-- ==================== 中文版本 ==================== -->
-<div id="zh" class="section">
     <h1>隐私政策</h1>
-    <p><strong>生效日期：</strong>[请填写日期]</p>
-    <p><strong>最后更新日期：</strong>[请填写日期]</p>
+    <div class="last-updated">最后更新日期：2026年10月26日</div>
 
-    <p>欢迎使用“识词卡”（以下简称“本应用”）。本应用由 <strong>[开发者名称]</strong>（以下简称“我们”）开发和运营。我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。我们致力于维持您对我们的信任，恪守以下原则，保护您的个人信息：权责一致原则、目的明确原则、选择同意原则、最少够用原则、确保安全原则、主体参与原则、公开透明原则等。同时，我们承诺将按照业界成熟的安全标准，采取相应的安全保护措施来保护您的个人信息。</p>
+    <p>欢迎使用「识词卡」（以下简称“本应用”）。本应用由 <strong>Luminary</strong>（以下简称“我们”）开发和运营。我们非常重视您的隐私和个人信息保护。本隐私政策旨在向您说明我们如何收集、使用、存储、共享和保护您的信息，以及您所享有的相关权利。</p>
+    <p>请在使用本应用前仔细阅读并充分理解本政策。一旦您开始使用本应用，即表示您已同意本政策的内容。</p>
 
-    <p><strong>请在使用本应用前，仔细阅读并了解本《隐私政策》。</strong>一旦您开始使用本应用，即表示您已充分理解并同意本政策的全部内容。如您对本政策有任何疑问，可通过本政策末尾提供的联系方式与我们联系。</p>
+    <h2>1. 我们收集的信息</h2>
+    <p>为了向您提供单词学习、数据同步及免费广告支持等服务，我们可能会收集以下类型的信息：</p>
 
-    <h2>一、我们如何收集和使用您的个人信息</h2>
-    <p>我们仅会出于本政策所述的以下目的，收集和使用您的个人信息：</p>
+    <h3>1.1 您主动提供的信息</h3>
     <ul>
-        <li><strong>账号注册与登录：</strong> 当您注册账号时，我们会收集您的<strong>邮箱地址</strong>和<strong>密码</strong>。您也可以选择使用第三方账号（如 Google、华为账号）登录，届时我们会根据第三方平台的授权获取您的<strong>昵称、头像、邮箱</strong>等信息。</li>
-        <li><strong>学习数据记录：</strong> 为了向您提供单词学习、复习提醒、进度追踪等功能，我们会收集您的<strong>学习记录</strong>（包括您保存的单词、复习时间、练习结果、错题记录等）。这些数据将存储在您的设备本地，并在您登录账号后同步至云端，以便您在不同设备上恢复学习进度。</li>
-        <li><strong>词典与内容查询：</strong> 当您使用词典查询或导入文档功能时，我们会处理您输入的<strong>查询词条</strong>或导入的<strong>文本内容</strong>。这些信息仅用于向您返回查询结果或提取单词，不会用于其他目的。</li>
-        <li><strong>广告服务：</strong> 本应用集成了第三方广告SDK（华为 Ads Kit）。为了向您展示合适的广告，广告SDK可能会收集您的<strong>设备标识符（OAID/Android ID）、网络状态、粗略位置信息</strong>等。我们不会将您的学习数据与广告SDK共享。您可以在设备系统设置中重置或关闭广告标识符。</li>
-        <li><strong>语音合成（TTS）与音效：</strong> 当您使用单词发音或答题音效功能时，应用会调用系统或第三方的语音合成服务，此过程不涉及个人信息的收集。</li>
-        <li><strong>通知与提醒：</strong> 当您开启复习提醒功能时，应用会请求通知权限，并读取您的<strong>本地时间</strong>以安排定时提醒。</li>
-        <li><strong>设备权限调用：</strong> 为了实现上述功能，我们可能会向您申请以下权限：
-            <ul>
-                <li><strong>通知权限：</strong> 用于发送复习提醒通知。</li>
-                <li><strong>精确闹钟权限：</strong> 用于准时触发提醒。</li>
-                <li><strong>网络权限：</strong> 用于账号登录、数据同步、广告加载等。</li>
-                <li><strong>存储/文件访问权限：</strong> 用于选择图片、文档进行导入。</li>
-                <li><strong>相机权限（如适用）：</strong> 用于拍摄图片进行OCR识别。</li>
-            </ul>
-            您可以在设备系统设置中随时关闭这些权限，但这可能会影响相关功能的正常使用。
-        </li>
+        <li><strong>账号信息</strong>：当您注册或登录时，我们会通过 Firebase Authentication 收集您的<strong>邮箱地址</strong>和<strong>用户名</strong>。如果您选择使用 Google 或华为账号登录，我们仅接收该平台授权共享的基本标识符（如 UnionID、OpenID、昵称、头像）。</li>
+        <li><strong>学习内容</strong>：您导入的文档、图片、粘贴的文本以及创建的自定义卡组名称。这些内容仅用于提取单词和生成学习卡片。</li>
     </ul>
 
-    <h2>二、我们如何使用 Cookie 和同类技术</h2>
-    <p>本应用可能使用本地存储（LocalStorage）或类似技术来保存您的偏好设置（如语言选择、排序方式）。这些技术不会用于追踪您在其他应用或网站上的行为。</p>
-
-    <h2>三、我们如何共享、转让、公开披露您的个人信息</h2>
-    <p>我们不会向任何第三方出售您的个人信息。仅在以下情形下，我们可能会共享您的个人信息：</p>
+    <h3>1.2 自动收集的信息</h3>
     <ul>
-        <li><strong>与服务提供商共享：</strong> 我们可能会与为我们提供服务的第三方公司共享您的信息，例如云存储服务商（Firebase/华为云）、账号认证服务商（Google/华为）、广告服务商（华为 Ads Kit）。这些服务商仅能出于向我们提供服务的目的访问您的信息，并须遵守严格的保密义务。</li>
-        <li><strong>法律要求：</strong> 如果我们收到有效的法律文书（如传票、法院命令），或为了遵守适用的法律、法规或政府要求，我们可能会披露您的信息。</li>
-        <li><strong>业务转让：</strong> 如果发生合并、收购或资产出售，您的个人信息可能会被转移，但我们会确保接收方继续受本政策的约束。</li>
-    </ul>
-    <p>关于我们集成的第三方SDK的详细信息，请参阅本政策第五部分。</p>
-
-    <h2>四、我们如何保护您的个人信息</h2>
-    <p>我们采取符合业界标准的安全措施来保护您的个人信息，防止其遭到未经授权的访问、公开披露、使用、修改、损坏或丢失。这些措施包括：</p>
-    <ul>
-        <li><strong>加密传输：</strong> 我们使用 HTTPS 等加密技术保护数据在传输过程中的安全。</li>
-        <li><strong>访问控制：</strong> 我们限制只有授权人员才能访问您的个人信息，并要求他们遵守严格的保密义务。</li>
-        <li><strong>安全审计：</strong> 我们定期审查我们的安全措施，以应对不断变化的风险。</li>
-    </ul>
-    <p>尽管我们采取了合理的安全措施，但请注意，互联网并非绝对安全的环境。我们建议您妥善保管您的账号密码，不要向他人透露。</p>
-
-    <h2>五、第三方SDK与信息共享清单</h2>
-    <p>为保障本应用的稳定运行、实现相关功能，我们集成了以下第三方SDK。这些SDK可能会收集您的部分个人信息，具体如下：</p>
-    <table>
-        <thead>
-            <tr>
-                <th>SDK名称</th>
-                <th>提供方</th>
-                <th>使用目的</th>
-                <th>收集的个人信息类型</th>
-                <th>隐私政策链接</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Firebase Authentication</td>
-                <td>Google LLC</td>
-                <td>账号注册、登录与认证</td>
-                <td>邮箱地址、密码、第三方账号标识</td>
-                <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">查看</a></td>
-            </tr>
-            <tr>
-                <td>Cloud Firestore</td>
-                <td>Google LLC</td>
-                <td>学习数据云同步</td>
-                <td>学习记录（单词、进度、错题等）</td>
-                <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">查看</a></td>
-            </tr>
-            <tr>
-                <td>Google Sign-In</td>
-                <td>Google LLC</td>
-                <td>第三方账号登录</td>
-                <td>Google账号信息（昵称、头像、邮箱）</td>
-                <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">查看</a></td>
-            </tr>
-            <tr>
-                <td>HUAWEI Account Kit</td>
-                <td>华为技术有限公司</td>
-                <td>第三方账号登录</td>
-                <td>华为账号信息（昵称、头像、UnionID/OpenID）</td>
-                <td><a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/privacy-statement-0000001050042021" target="_blank" rel="noopener">查看</a></td>
-            </tr>
-            <tr>
-                <td>HUAWEI Ads Kit (Petal Ads)</td>
-                <td>华为技术有限公司</td>
-                <td>展示开屏广告与激励视频广告</td>
-                <td>设备标识符（OAID/Android ID）、网络信息、粗略位置</td>
-                <td><a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/privacy-statement-0000001050042021" target="_blank" rel="noopener">查看</a></td>
-            </tr>
-            <tr>
-                <td>Google ML Kit</td>
-                <td>Google LLC</td>
-                <td>图片文字识别（OCR）</td>
-                <td>不收集个人信息（完全离线处理）</td>
-                <td><a href="https://developers.google.com/ml-kit/terms" target="_blank" rel="noopener">查看</a></td>
-            </tr>
-            <tr>
-                <td>Flutter TTS / AudioPlayers</td>
-                <td>社区开源</td>
-                <td>语音合成与音效播放</td>
-                <td>不收集个人信息（本地处理）</td>
-                <td><a href="https://pub.dev/packages/flutter_tts" target="_blank" rel="noopener">查看</a></td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h2>六、您的权利</h2>
-    <p>根据适用法律，您对您的个人信息享有以下权利：</p>
-    <ul>
-        <li><strong>访问权：</strong> 您有权访问我们持有的关于您的个人信息。您可以在应用内的“学习数据”或“单词详情”页面查看您的学习记录。</li>
-        <li><strong>更正权：</strong> 您有权要求我们更正不准确的个人信息。您可以在应用内直接编辑笔记或修改卡组名称。</li>
-        <li><strong>删除权：</strong> 您有权要求我们删除您的个人信息。您可以在“设置”中清空学习数据，或通过“删除账号”功能彻底删除您的账号及所有相关数据。</li>
-        <li><strong>撤回同意权：</strong> 对于基于您同意处理的信息，您有权随时撤回同意。例如，您可以在系统设置中关闭通知权限，或在广告弹窗中选择拒绝。</li>
-        <li><strong>注销账号：</strong> 您可以通过“设置 > 账号 > 删除账号”路径注销您的账号。注销后，我们将删除或匿名化您的所有个人信息，但法律法规另有规定的除外。</li>
-    </ul>
-    <p>如需行使上述权利或联系我们，请发送邮件至 <strong>[联系邮箱]</strong>。</p>
-
-    <h2>七、对未成年人的保护</h2>
-    <p>我们非常重视对未成年人个人信息的保护。本应用主要面向一般用户，不以未成年人为目标用户群体。若您是未满14周岁的未成年人，请在您的父母或其他监护人陪同下仔细阅读本政策，并在征得他们同意后使用本应用及提交个人信息。若我们发现在未事先获得可证实的父母同意的情况下收集了未成年人的个人信息，我们会设法尽快删除相关数据。</p>
-
-    <h2>八、信息存储地点及期限</h2>
-    <p><strong>存储地点：</strong> 我们依照法律法规的规定，将您的个人信息存储于位于<strong>[存储地区，例如：新加坡]</strong>的服务器上。如需跨境传输，我们将单独征得您的同意。</p>
-    <p><strong>存储期限：</strong> 我们仅在为您提供服务所必需的期间内保留您的个人信息。当您注销账号或删除相关数据后，我们将根据法律法规的要求删除或匿名化处理您的个人信息，法律法规另有规定的除外。</p>
-
-    <h2>九、本政策如何更新</h2>
-    <p>我们可能会适时修订本隐私政策。未经您明确同意，我们不会削减您按照本政策所应享有的权利。对于重大变更，我们会通过应用内弹窗、推送通知或电子邮件等方式通知您。建议您定期查阅本政策以了解最新信息。</p>
-
-    <h2>十、如何联系我们</h2>
-    <p>如果您对本隐私政策有任何疑问、意见或建议，或希望行使您的个人信息权利，请通过以下方式与我们联系：</p>
-    <ul>
-        <li><strong>开发者名称：</strong> [开发者名称]</li>
-        <li><strong>联系邮箱：</strong> [联系邮箱]</li>
-    </ul>
-    <p>我们将在收到您的请求后 15 个工作日内予以回复。</p>
-</div>
-
-<!-- ==================== English Version ==================== -->
-<div id="en" class="section en-section">
-    <h1>Privacy Policy</h1>
-    <p><strong>Effective Date:</strong> [Date]</p>
-    <p><strong>Last Updated:</strong> [Date]</p>
-
-    <p>Welcome to "VocabCard" (the "App"). The App is developed and operated by <strong>[Developer Name]</strong> ("we", "us", or "our"). We fully recognize the importance of personal information to you and will do our utmost to protect the security and reliability of your personal information. We are committed to maintaining your trust by adhering to the following principles: accountability, purpose limitation, consent, data minimization, security, user participation, and transparency. We also promise to take appropriate security measures to protect your personal information in accordance with industry-standard practices.</p>
-
-    <p><strong>Please read and understand this Privacy Policy carefully before using the App.</strong> By starting to use the App, you indicate that you have fully understood and agreed to all contents of this policy. If you have any questions about this policy, please contact us using the details provided at the end of this policy.</p>
-
-    <h2>1. How We Collect and Use Your Personal Information</h2>
-    <p>We collect and use your personal information only for the purposes described below:</p>
-    <ul>
-        <li><strong>Account Registration & Login:</strong> When you register an account, we collect your <strong>email address</strong> and <strong>password</strong>. You may also choose to log in with a third-party account (e.g., Google, HUAWEI ID). In that case, we will obtain your <strong>nickname, avatar, and email</strong> based on the authorization of the third-party platform.</li>
-        <li><strong>Learning Data Records:</strong> To provide word learning, review reminders, and progress tracking, we collect your <strong>learning records</strong> (including saved words, review times, practice results, and mistake records). This data is stored locally on your device and synced to the cloud after you log in, so you can restore your progress across devices.</li>
-        <li><strong>Dictionary & Content Queries:</strong> When you use the dictionary or document import features, we process the <strong>query terms</strong> or <strong>text content</strong> you input. This information is used solely to return query results or extract words and will not be used for any other purpose.</li>
-        <li><strong>Advertising Services:</strong> The App integrates a third-party advertising SDK (HUAWEI Ads Kit). To display suitable ads, the SDK may collect your <strong>device identifier (OAID/Android ID), network status, and coarse location</strong>. We do not share your learning data with the advertising SDK. You can reset or disable your advertising identifier in your device's system settings.</li>
-        <li><strong>Text-to-Speech (TTS) & Sound Effects:</strong> When you use the pronunciation or sound effect features, the App calls system or third-party TTS services. This process does not involve the collection of personal information.</li>
-        <li><strong>Notifications & Reminders:</strong> When you enable the review reminder feature, the App requests notification permission and reads your <strong>local time</strong> to schedule reminders.</li>
-        <li><strong>Device Permissions:</strong> To implement the above features, we may request the following permissions:
-            <ul>
-                <li><strong>Notification Permission:</strong> To send review reminder notifications.</li>
-                <li><strong>Exact Alarm Permission:</strong> To trigger reminders on time.</li>
-                <li><strong>Network Permission:</strong> For account login, data sync, ad loading, etc.</li>
-                <li><strong>Storage/File Access Permission:</strong> To select images or documents for import.</li>
-                <li><strong>Camera Permission (if applicable):</strong> To take photos for OCR recognition.</li>
-            </ul>
-            You can revoke these permissions at any time in your device's system settings, but this may affect the normal use of related features.
-        </li>
+        <li><strong>学习记录</strong>：您的识字卡列表、复习进度、掌握等级、错题本、练习历史等。这些数据用于实现间隔重复算法和个性化练习。</li>
+        <li><strong>设备与广告标识符</strong>：为了展示广告和防止欺诈，我们的广告合作伙伴（Google AdMob）可能会收集您的<strong>广告 ID（Advertising ID）</strong>、IP 地址、设备型号、操作系统版本及粗略的地理位置信息（仅限国家/地区级别）。</li>
+        <li><strong>应用活动</strong>：您与广告的互动情况（如展示、点击）、应用崩溃日志和性能数据（用于改进稳定性）。</li>
     </ul>
 
-    <h2>2. How We Use Cookies and Similar Technologies</h2>
-    <p>The App may use local storage (LocalStorage) or similar technologies to save your preferences (such as language selection and sort order). These technologies are not used to track your behavior on other apps or websites.</p>
-
-    <h2>3. How We Share, Transfer, and Publicly Disclose Your Personal Information</h2>
-    <p>We do not sell your personal information to any third party. We may share your personal information only in the following circumstances:</p>
+    <h2>2. 我们如何使用您的信息</h2>
     <ul>
-        <li><strong>With Service Providers:</strong> We may share your information with third-party companies that provide services to us, such as cloud storage providers (Firebase/HUAWEI Cloud), authentication providers (Google/HUAWEI), and advertising providers (HUAWEI Ads Kit). These providers may access your information only for the purpose of providing services to us and are bound by strict confidentiality obligations.</li>
-        <li><strong>Legal Requirements:</strong> We may disclose your information if we receive valid legal process (such as a subpoena or court order) or if required to comply with applicable laws, regulations, or government requests.</li>
-        <li><strong>Business Transfers:</strong> In the event of a merger, acquisition, or asset sale, your personal information may be transferred, but we will ensure that the recipient remains bound by this policy.</li>
+        <li><strong>提供核心服务</strong>：创建和管理您的识字卡、同步学习进度至云端（Firebase Firestore），以便您在重装应用或更换设备后恢复数据。</li>
+        <li><strong>个性化学习</strong>：根据您的复习表现调整单词的出现频率和掌握等级。</li>
+        <li><strong>展示广告</strong>：本应用免费向您提供，我们通过展示广告（开屏广告、激励视频）来维持运营。广告可能基于您的兴趣进行个性化推荐，但您可以通过设备设置选择退出个性化广告。</li>
+        <li><strong>安全保障</strong>：验证账号安全、防止欺诈和滥用行为。</li>
     </ul>
-    <p>For details about the third-party SDKs we integrate, please refer to Section 5 of this policy.</p>
 
-    <h2>4. How We Protect Your Personal Information</h2>
-    <p>We take industry-standard security measures to protect your personal information from unauthorized access, public disclosure, use, modification, damage, or loss. These measures include:</p>
+    <h2>3. 信息的共享与披露</h2>
+    <p>我们不会出售您的个人数据。仅在以下必要情况下，我们才会与第三方共享信息：</p>
+
+    <h3>3.1 第三方服务提供商（SDK）</h3>
+    <p>本应用集成了以下第三方 SDK，它们有各自独立的隐私政策：</p>
     <ul>
-        <li><strong>Encrypted Transmission:</strong> We use encryption technologies such as HTTPS to protect data during transmission.</li>
-        <li><strong>Access Control:</strong> We restrict access to your personal information to authorized personnel only and require them to comply with strict confidentiality obligations.</li>
-        <li><strong>Security Audits:</strong> We regularly review our security measures to address evolving risks.</li>
+        <li><strong>Google Firebase（Authentication / Firestore）</strong>：用于账号登录和云端数据同步。数据在传输和存储过程中均经过加密。<br>
+            <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase 隐私政策</a></li>
+        <li><strong>Google AdMob</strong>：用于展示开屏广告和激励视频广告。AdMob 可能会收集设备标识符、IP 地址和广告互动数据，以提供个性化广告并衡量广告效果。<br>
+            <a href="https://policies.google.com/technologies/ads" target="_blank">Google 广告隐私政策</a></li>
+        <li><strong>华为账号服务（HUAWEI Account Kit）</strong>：如果您选择华为账号登录，该服务由华为终端有限公司提供。<br>
+            <a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/privacy-statement-0000001050042021" target="_blank">华为隐私声明</a></li>
     </ul>
-    <p>Despite our reasonable security measures, please note that the Internet is not an absolutely secure environment. We recommend that you keep your account password safe and not disclose it to others.</p>
 
-    <h2>5. Third-Party SDKs and Information Sharing List</h2>
-    <p>To ensure the stable operation and functionality of the App, we integrate the following third-party SDKs. These SDKs may collect some of your personal information as detailed below:</p>
-    <table>
-        <thead>
-            <tr>
-                <th>SDK Name</th>
-                <th>Provider</th>
-                <th>Purpose</th>
-                <th>Types of Personal Information Collected</th>
-                <th>Privacy Policy Link</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Firebase Authentication</td>
-                <td>Google LLC</td>
-                <td>Account registration, login, and authentication</td>
-                <td>Email address, password, third-party account identifiers</td>
-                <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">View</a></td>
-            </tr>
-            <tr>
-                <td>Cloud Firestore</td>
-                <td>Google LLC</td>
-                <td>Cloud sync of learning data</td>
-                <td>Learning records (words, progress, mistakes, etc.)</td>
-                <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">View</a></td>
-            </tr>
-            <tr>
-                <td>Google Sign-In</td>
-                <td>Google LLC</td>
-                <td>Third-party account login</td>
-                <td>Google account info (nickname, avatar, email)</td>
-                <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">View</a></td>
-            </tr>
-            <tr>
-                <td>HUAWEI Account Kit</td>
-                <td>Huawei Technologies Co., Ltd.</td>
-                <td>Third-party account login</td>
-                <td>HUAWEI ID info (nickname, avatar, UnionID/OpenID)</td>
-                <td><a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/privacy-statement-0000001050042021" target="_blank" rel="noopener">View</a></td>
-            </tr>
-            <tr>
-                <td>HUAWEI Ads Kit (Petal Ads)</td>
-                <td>Huawei Technologies Co., Ltd.</td>
-                <td>Display splash and rewarded video ads</td>
-                <td>Device identifier (OAID/Android ID), network info, coarse location</td>
-                <td><a href="https://developer.huawei.com/consumer/cn/doc/development/HMSCore-Guides/privacy-statement-0000001050042021" target="_blank" rel="noopener">View</a></td>
-            </tr>
-            <tr>
-                <td>Google ML Kit</td>
-                <td>Google LLC</td>
-                <td>Image text recognition (OCR)</td>
-                <td>No personal information collected (processed entirely offline)</td>
-                <td><a href="https://developers.google.com/ml-kit/terms" target="_blank" rel="noopener">View</a></td>
-            </tr>
-            <tr>
-                <td>Flutter TTS / AudioPlayers</td>
-                <td>Open Source Community</td>
-                <td>Text-to-speech and sound effect playback</td>
-                <td>No personal information collected (processed locally)</td>
-                <td><a href="https://pub.dev/packages/flutter_tts" target="_blank" rel="noopener">View</a></td>
-            </tr>
-        </tbody>
-    </table>
+    <h3>3.2 法律要求</h3>
+    <p>如果我们真诚地认为为了遵守法律义务、保护用户安全或维护我们的合法权利，有必要访问、使用、保存或披露您的信息，我们可能会在必要时进行此类披露。</p>
 
-    <h2>6. Your Rights</h2>
-    <p>Under applicable laws, you have the following rights regarding your personal information:</p>
+    <h2>4. 数据存储与安全</h2>
     <ul>
-        <li><strong>Right of Access:</strong> You have the right to access the personal information we hold about you. You can view your learning records on the "Learning Data" or "Word Details" pages within the App.</li>
-        <li><strong>Right to Rectification:</strong> You have the right to request that we correct inaccurate personal information. You can directly edit notes or rename decks within the App.</li>
-        <li><strong>Right to Erasure:</strong> You have the right to request that we delete your personal information. You can clear your learning data in "Settings" or permanently delete your account and all related data using the "Delete Account" feature.</li>
-        <li><strong>Right to Withdraw Consent:</strong> For information processed based on your consent, you have the right to withdraw your consent at any time. For example, you can disable notification permissions in your system settings or decline in the ad pop-up.</li>
-        <li><strong>Account Deletion:</strong> You can delete your account via "Settings > Account > Delete Account". After deletion, we will delete or anonymize all your personal information, unless otherwise required by laws and regulations.</li>
+        <li><strong>存储位置</strong>：您的学习数据主要存储在本地设备（SQLite）中。如果您登录账号，数据会加密同步至 Google Cloud（Firebase Firestore）的服务器。</li>
+        <li><strong>安全措施</strong>：我们采用行业标准的安全措施（如 HTTPS 加密传输、Firebase 安全规则）来保护您的数据，防止未经授权的访问、篡改或泄露。</li>
+        <li><strong>保留期限</strong>：我们仅在为您提供服务所必需的期间内保留您的个人数据。如果您删除账号，我们会同步删除云端存储的学习数据。</li>
     </ul>
-    <p>To exercise the above rights or contact us, please send an email to <strong>[Contact Email]</strong>.</p>
 
-    <h2>7. Protection of Minors</h2>
-    <p>We attach great importance to the protection of minors' personal information. The App is primarily intended for general users and is not targeted at minors. If you are a minor under the age of 14, please read this policy carefully with your parents or guardians and use the App and submit personal information only with their consent. If we become aware that we have collected personal information from a minor without prior verifiable parental consent, we will take steps to delete such data as soon as possible.</p>
-
-    <h2>8. Data Storage Location and Retention Period</h2>
-    <p><strong>Storage Location:</strong> In accordance with laws and regulations, we store your personal information on servers located in <strong>[Storage Region, e.g., Singapore]</strong>. If cross-border transfer is required, we will obtain your separate consent.</p>
-    <p><strong>Retention Period:</strong> We retain your personal information only for the period necessary to provide services to you. When you delete your account or related data, we will delete or anonymize your personal information in accordance with laws and regulations, unless otherwise required by law.</p>
-
-    <h2>9. How We Update This Policy</h2>
-    <p>We may revise this Privacy Policy from time to time. We will not reduce your rights under this policy without your explicit consent. For material changes, we will notify you via in-app pop-ups, push notifications, or email. We recommend that you review this policy periodically for the latest information.</p>
-
-    <h2>10. How to Contact Us</h2>
-    <p>If you have any questions, comments, or suggestions about this Privacy Policy, or wish to exercise your personal information rights, please contact us at:</p>
+    <h2>5. 您的权利与选择</h2>
     <ul>
-        <li><strong>Developer Name:</strong> [Developer Name]</li>
-        <li><strong>Contact Email:</strong> [Contact Email]</li>
+        <li><strong>访问与更正</strong>：您可以在应用内随时查看和修改您的学习记录、笔记和账号信息。</li>
+        <li><strong>删除账号</strong>：您可以在「我的 → 设置」中随时删除您的账号。删除后，云端的学习数据将被永久清除且无法恢复。</li>
+        <li><strong>广告个性化</strong>：您可以通过设备的系统设置（如 Android 的“广告”设置或 iOS 的“隐私与安全性 → 跟踪”）来限制广告跟踪或重置广告 ID。</li>
+        <li><strong>撤回同意</strong>：如果您位于欧洲经济区（EEA）或英国，您可以通过 AdMob 的 UMP SDK 弹窗随时更改您的广告同意偏好。</li>
     </ul>
-    <p>We will respond to your request within 15 business days.</p>
+
+    <h2>6. 儿童隐私</h2>
+    <p>本应用不面向 13 岁以下的儿童。我们不会有意收集 13 岁以下儿童的个人身份信息。如果您是家长或监护人，发现您的孩子向我们提供了个人信息，请通过下方联系方式与我们联系，我们将尽快删除相关数据。</p>
+
+    <h2>7. 国际数据传输</h2>
+    <p>您的信息可能会被传输至您所在国家/地区以外的服务器（例如 Google 的全球数据中心）。我们会确保此类传输符合适用的数据保护法律，并采取适当的保障措施。</p>
+
+    <h2>8. 本政策的更新</h2>
+    <p>我们可能会不时更新本隐私政策。任何重大变更都会通过应用内公告或更新本页面来通知您。我们建议您定期查看本页面，以了解最新的隐私实践。</p>
+
+    <h2>9. 联系我们</h2>
+    <p>如果您对本隐私政策有任何疑问、意见或建议，请通过以下方式与我们联系：</p>
+    <div class="contact-box">
+        <p><strong>开发者</strong>：Luminary</p>
+        <p><strong>邮箱</strong>：<a href="mailto:support@vocabcard.example.com">support@vocabcard.example.com</a></p>
+        <p><em>（请将上方邮箱替换为您实际使用的联系邮箱）</em></p>
+    </div>
+
 </div>
 
 </body>
