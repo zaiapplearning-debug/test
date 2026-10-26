@@ -3,174 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - VocabCard</title>
+    <title>Account Deletion Request - VocabCard</title>
     <style>
-        :root {
-            --primary: #1BA098;
-            --text-main: #2C3E50;
-            --text-secondary: #7F8C9A;
-            --bg: #F5F7F9;
-            --surface: #FFFFFF;
-            --border: #E8ECF0;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: var(--bg);
-            color: var(--text-main);
-            line-height: 1.7;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-        }
-        .container {
-            max-width: 800px;
-            width: 100%;
-            background: var(--surface);
-            padding: 48px;
-            border-radius: 16px;
-            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
-        }
-        h1 {
-            font-size: 28px;
-            color: var(--primary);
-            margin-bottom: 8px;
-            font-weight: 700;
-        }
-        .last-updated {
-            color: var(--text-secondary);
-            font-size: 14px;
-            margin-bottom: 32px;
-            padding-bottom: 16px;
-            border-bottom: 1px solid var(--border);
-        }
-        h2 {
-            font-size: 20px;
-            margin-top: 32px;
-            margin-bottom: 12px;
-            color: var(--text-main);
-            font-weight: 600;
-        }
-        h3 {
-            font-size: 16px;
-            margin-top: 20px;
-            margin-bottom: 8px;
-            color: var(--text-main);
-            font-weight: 600;
-        }
-        p, li {
-            font-size: 15px;
-            color: var(--text-main);
-            margin-bottom: 12px;
-        }
-        ul {
-            padding-left: 20px;
-            margin-bottom: 16px;
-        }
-        li { margin-bottom: 6px; }
-        a {
-            color: var(--primary);
-            text-decoration: none;
-            word-break: break-all;
-        }
-        a:hover { text-decoration: underline; }
-        .contact-box {
-            background-color: var(--bg);
-            padding: 20px;
-            border-radius: 12px;
-            margin-top: 16px;
-        }
-        .contact-box p { margin-bottom: 4px; }
-        @media (max-width: 600px) {
-            .container { padding: 24px; }
-            h1 { font-size: 24px; }
-        }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #F5F7F9; color: #2C3E50; line-height: 1.7; padding: 40px 20px; display: flex; justify-content: center; }
+        .container { max-width: 640px; width: 100%; background: #FFFFFF; padding: 40px; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.04); }
+        h1 { font-size: 26px; color: #1BA098; margin-bottom: 8px; }
+        .subtitle { color: #7F8C9A; font-size: 14px; margin-bottom: 28px; padding-bottom: 16px; border-bottom: 1px solid #E8ECF0; }
+        h2 { font-size: 18px; margin-top: 28px; margin-bottom: 12px; }
+        p, li { font-size: 15px; margin-bottom: 12px; }
+        ul { padding-left: 20px; margin-bottom: 16px; }
+        a.button { display: inline-block; background: #1BA098; color: white; padding: 12px 24px; border-radius: 999px; text-decoration: none; font-weight: 600; margin-top: 8px; }
+        a.button:hover { background: #158F88; }
+        .note { background: #FFF9E6; border-left: 4px solid #F5B400; padding: 16px; border-radius: 8px; font-size: 14px; margin: 20px 0; }
+        .footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #E8ECF0; font-size: 13px; color: #7F8C9A; }
     </style>
 </head>
 <body>
-
 <div class="container">
+    <h1>Account Deletion Request</h1>
+    <div class="subtitle">App: VocabCard · Developer: Luminary</div>
 
-    <h1>Privacy Policy</h1>
-    <div class="last-updated">Last Updated: October 26, 2026</div>
+    <p>You can request the deletion of your VocabCard account and all associated data directly from this page, without needing to reinstall the app.</p>
 
-    <p>Welcome to "VocabCard" (hereinafter referred to as "the App"). The App is developed and operated by <strong>Luminary</strong> ("we", "us", or "our"). We take your privacy and the protection of your personal information very seriously. This Privacy Policy is designed to explain how we collect, use, store, share, and protect your information, as well as your rights regarding your data.</p>
-    <p>Please read this policy carefully before using the App. By using the App, you agree to the terms outlined in this Privacy Policy.</p>
-
-    <h2>1. Information We Collect</h2>
-    <p>To provide you with vocabulary learning, data synchronization, and free ad-supported services, we may collect the following types of information:</p>
-
-    <h3>1.1 Information You Provide to Us</h3>
+    <h2>What will be deleted</h2>
+    <p>Upon a verified deletion request, we will permanently delete the following data associated with your account:</p>
     <ul>
-        <li><strong>Account Information</strong>: When you register or log in, we collect your <strong>email address</strong> and <strong>username</strong> via Firebase Authentication. If you choose to log in with Google or Huawei, we only receive basic identifiers (such as UnionID, OpenID, nickname, and profile picture) authorized and shared by those platforms.</li>
-        <li><strong>Learning Content</strong>: Documents, images, and text you import or paste, as well as the names of custom decks you create. This content is used solely to extract vocabulary and generate flashcards.</li>
+        <li>Your account credentials (email address, username)</li>
+        <li>All flashcards, decks, and custom deck names</li>
+        <li>Your learning progress, mastery levels, and review history</li>
+        <li>Your Mistake Book, bookmarks, and personal notes</li>
+        <li>Any cloud-synced data stored in Firebase Firestore</li>
     </ul>
 
-    <h3>1.2 Information Collected Automatically</h3>
-    <ul>
-        <li><strong>Learning Records</strong>: Your flashcard list, review progress, mastery levels, mistake book, and practice history. This data is used to implement spaced repetition algorithms and personalized practice.</li>
-        <li><strong>Device and Advertising Identifiers</strong>: To display ads and prevent fraud, our advertising partners (Google AdMob) may collect your <strong>Advertising ID</strong>, IP address, device model, OS version, and coarse geographic location (country/region level only).</li>
-        <li><strong>App Activity</strong>: Your interactions with ads (e.g., impressions, clicks), app crash logs, and performance data (used to improve stability).</li>
-    </ul>
-
-    <h2>2. How We Use Your Information</h2>
-    <ul>
-        <li><strong>Providing Core Services</strong>: Creating and managing your flashcards, syncing learning progress to the cloud (Firebase Firestore) so you can restore your data after reinstalling or switching devices.</li>
-        <li><strong>Personalized Learning</strong>: Adjusting word frequency and mastery levels based on your review performance.</li>
-        <li><strong>Displaying Ads</strong>: The App is provided free of charge. We display ads (App Open and Rewarded Video) to sustain operations. Ads may be personalized based on your interests, but you can opt out of personalized advertising through your device settings.</li>
-        <li><strong>Security</strong>: Verifying account security and preventing fraud and abuse.</li>
-    </ul>
-
-    <h2>3. Sharing and Disclosure of Information</h2>
-    <p>We do not sell your personal data. We will only share information with third parties under the following necessary circumstances:</p>
-
-    <h3>3.1 Third-Party Service Providers (SDKs)</h3>
-    <p>The App integrates the following third-party SDKs, which have their own independent privacy policies:</p>
-    <ul>
-        <li><strong>Google Firebase (Authentication / Firestore)</strong>: Used for account login and cloud data synchronization. Data is encrypted during transmission and storage.<br>
-            <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy Policy</a></li>
-        <li><strong>Google AdMob</strong>: Used to display App Open and Rewarded Video ads. AdMob may collect device identifiers, IP addresses, and ad interaction data to provide personalized ads and measure ad effectiveness.<br>
-            <a href="https://policies.google.com/technologies/ads" target="_blank">Google Advertising Privacy Policy</a></li>
-        <li><strong>HUAWEI Account Kit</strong>: If you choose to sign in with a Huawei account, this service is provided by Huawei Device Co., Ltd.<br>
-            <a href="https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides/privacy-statement-0000001050042021" target="_blank">Huawei Privacy Statement</a></li>
-    </ul>
-
-    <h3>3.2 Legal Requirements</h3>
-    <p>We may access, use, preserve, or disclose your information if we sincerely believe it is necessary to comply with legal obligations, protect user safety, or maintain our legal rights.</p>
-
-    <h2>4. Data Storage and Security</h2>
-    <ul>
-        <li><strong>Storage Location</strong>: Your learning data is primarily stored locally on your device (SQLite). If you log in, data is encrypted and synchronized to Google Cloud (Firebase Firestore) servers.</li>
-        <li><strong>Security Measures</strong>: We use industry-standard security measures (such as HTTPS encrypted transmission and Firebase Security Rules) to protect your data from unauthorized access, alteration, or disclosure.</li>
-        <li><strong>Retention Period</strong>: We retain your personal data only for as long as necessary to provide you with our services. If you delete your account, we will synchronously delete the learning data stored in the cloud.</li>
-    </ul>
-
-    <h2>5. Your Rights and Choices</h2>
-    <ul>
-        <li><strong>Access and Correction</strong>: You can view and modify your learning records, notes, and account information at any time within the App.</li>
-        <li><strong>Account Deletion</strong>: You can delete your account at any time in "Me → Settings". Once deleted, your cloud learning data will be permanently erased and cannot be recovered.</li>
-        <li><strong>Ad Personalization</strong>: You can limit ad tracking or reset your Advertising ID through your device's system settings (e.g., Android's "Ads" settings or iOS's "Privacy & Security → Tracking").</li>
-        <li><strong>Withdraw Consent</strong>: If you are located in the European Economic Area (EEA) or the UK, you can change your ad consent preferences at any time via the AdMob UMP SDK dialog.</li>
-    </ul>
-
-    <h2>6. Children's Privacy</h2>
-    <p>The App is not intended for children under 13. We do not knowingly collect personally identifiable information from children under 13. If you are a parent or guardian and discover that your child has provided us with personal information, please contact us using the information below, and we will delete such data promptly.</p>
-
-    <h2>7. International Data Transfers</h2>
-    <p>Your information may be transferred to, and maintained on, servers located outside of your state, province, country, or other governmental jurisdiction (such as Google's global data centers). We will ensure that such transfers comply with applicable data protection laws and take appropriate safeguards.</p>
-
-    <h2>8. Updates to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. Any material changes will be notified to you via in-app announcements or by updating this page. We encourage you to review this page periodically to stay informed about our privacy practices.</p>
-
-    <h2>9. Contact Us</h2>
-    <p>If you have any questions, comments, or suggestions about this Privacy Policy, please contact us:</p>
-    <div class="contact-box">
-        <p><strong>Developer</strong>: Luminary</p>
-        <p><strong>Email</strong>: <a href="mailto:support@vocabcard.example.com">support@vocabcard.example.com</a></p>
-        <p><em>(Please replace the email above with your actual contact email address)</em></p>
+    <div class="note">
+        <strong>Note:</strong> Account deletion is permanent. Once processed, your data cannot be recovered. If you only wish to stop using the app, you can simply sign out or uninstall VocabCard without requesting deletion.
     </div>
 
-</div>
+    <h2>How to request deletion</h2>
+    <p>Send an email to <strong>support@vocabcard.example.com</strong> with the subject line <strong>"Account Deletion Request – VocabCard"</strong>. Please send the request from the email address associated with your VocabCard account.</p>
+    <p>
+        <a class="button" href="mailto:support@vocabcard.example.com?subject=Account%20Deletion%20Request%20%E2%80%93%20VocabCard&body=Please%20delete%20my%20VocabCard%20account%20and%20all%20associated%20data.%0A%0ARegistered%20email%3A%20%5BYour%20email%20address%5D">
+            ✉️ Request Account Deletion
+        </a>
+    </p>
+    <p>We will process your request within <strong>7 business days</strong> and send a confirmation once the deletion is complete.</p>
 
+    <h2>Alternative: In-App Deletion</h2>
+    <p>If you still have VocabCard installed, you can delete your account immediately from within the app:</p>
+    <p><strong>Me → Settings → Account → Delete Account</strong></p>
+
+    <div class="footer">
+        If you have any questions, contact us at support@vocabcard.example.com.<br>
+        Developer: Luminary · App: VocabCard
+    </div>
+</div>
 </body>
 </html>
