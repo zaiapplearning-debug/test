@@ -3,59 +3,311 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account Deletion Request - VocabCard</title>
+    <title>Privacy Policy · Chinese Literacy Paradise</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #F5F7F9; color: #2C3E50; line-height: 1.7; padding: 40px 20px; display: flex; justify-content: center; }
-        .container { max-width: 640px; width: 100%; background: #FFFFFF; padding: 40px; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.04); }
-        h1 { font-size: 26px; color: #1BA098; margin-bottom: 8px; }
-        .subtitle { color: #7F8C9A; font-size: 14px; margin-bottom: 28px; padding-bottom: 16px; border-bottom: 1px solid #E8ECF0; }
-        h2 { font-size: 18px; margin-top: 28px; margin-bottom: 12px; }
-        p, li { font-size: 15px; margin-bottom: 12px; }
-        ul { padding-left: 20px; margin-bottom: 16px; }
-        a.button { display: inline-block; background: #1BA098; color: white; padding: 12px 24px; border-radius: 999px; text-decoration: none; font-weight: 600; margin-top: 8px; }
-        a.button:hover { background: #158F88; }
-        .note { background: #FFF9E6; border-left: 4px solid #F5B400; padding: 16px; border-radius: 8px; font-size: 14px; margin: 20px 0; }
-        .footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #E8ECF0; font-size: 13px; color: #7F8C9A; }
+        :root {
+            --ink: #1f2933;
+            --muted: #52606d;
+            --line: #e4e7eb;
+            --accent: #0b6bcb;
+            --bg: #ffffff;
+            --soft: #f7f9fc;
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background: var(--bg);
+            color: var(--ink);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.75;
+            font-size: 16px;
+        }
+        .page {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+        header {
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--line);
+            margin-bottom: 32px;
+        }
+        h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0 0 8px;
+            letter-spacing: -0.02em;
+        }
+        .meta {
+            color: var(--muted);
+            font-size: 14px;
+        }
+        .meta span + span::before {
+            content: "·";
+            margin: 0 8px;
+        }
+        h2 {
+            font-size: 20px;
+            font-weight: 650;
+            margin: 40px 0 12px;
+            padding-top: 8px;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 650;
+            margin: 24px 0 8px;
+            color: var(--ink);
+        }
+        p { margin: 0 0 14px; }
+        ul, ol { margin: 0 0 16px; padding-left: 22px; }
+        li { margin-bottom: 6px; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 16px 0 24px;
+            font-size: 14.5px;
+        }
+        th, td {
+            text-align: left;
+            padding: 10px 12px;
+            border: 1px solid var(--line);
+            vertical-align: top;
+        }
+        th {
+            background: var(--soft);
+            font-weight: 650;
+            white-space: nowrap;
+        }
+        .callout {
+            background: var(--soft);
+            border-left: 3px solid var(--accent);
+            padding: 14px 18px;
+            margin: 20px 0;
+            font-size: 14.5px;
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        footer {
+            margin-top: 56px;
+            padding-top: 20px;
+            border-top: 1px solid var(--line);
+            color: var(--muted);
+            font-size: 13.5px;
+        }
+        @media (max-width: 600px) {
+            .page { padding: 32px 18px 64px; }
+            h1 { font-size: 24px; }
+            table { font-size: 13.5px; }
+            th, td { padding: 8px 10px; }
+        }
     </style>
 </head>
 <body>
-<div class="container">
-    <h1>Account Deletion Request</h1>
-    <div class="subtitle">App: VocabCard · Developer: Luminary</div>
+<div class="page">
 
-    <p>You can request the deletion of your VocabCard account and all associated data directly from this page, without needing to reinstall the app.</p>
+    <header>
+        <h1>Privacy Policy</h1>
+        <div class="meta">
+            <span>Chinese Literacy Paradise</span>
+            <span>Effective Date: January 1, 2026</span>
+            <span>Last Updated: January 1, 2026</span>
+        </div>
+    </header>
 
-    <h2>What will be deleted</h2>
-    <p>Upon a verified deletion request, we will permanently delete the following data associated with your account:</p>
+    <p>
+        Chinese Literacy Paradise (the "App") is developed and operated by <strong>[Replace with your developer or company name]</strong> ("we", "us", or "our"). This policy explains how we collect, use, share, and protect information you and your child provide while using the App. The App is designed for children and families learning Chinese. We take children's privacy seriously and comply with the Google Play Families Policy, the U.S. Children's Online Privacy Protection Act (COPPA), and the EU General Data Protection Regulation (GDPR).
+    </p>
+
+    <div class="callout">
+        By using the App, you (as a parent or guardian) agree to the practices described in this Privacy Policy. If you do not agree, please stop using the App.
+    </div>
+
+    <h2>1. Information We Collect</h2>
+    <p>
+        We collect only the information necessary to provide the App's functionality, improve the learning experience, and display advertising. The following data types are collected either through our own code or through third-party SDKs.
+    </p>
+
+    <h3>1.1 Information You Provide Voluntarily</h3>
+    <p>
+        The App <strong>does not require account registration</strong> and does not collect names, phone numbers, or precise home addresses. Only when you use the "Feedback" feature will your email client open to send a message; the content of that email is entirely up to you, and we use it solely to respond to your inquiry.
+    </p>
+
+    <h3>1.2 Information Collected Automatically (via Firebase Analytics)</h3>
+    <p>
+        We use Google Analytics for Firebase to understand how the App is used and to improve learning content. Firebase Analytics automatically collects the following information:
+    </p>
     <ul>
-        <li>Your account credentials (email address, username)</li>
-        <li>All flashcards, decks, and custom deck names</li>
-        <li>Your learning progress, mastery levels, and review history</li>
-        <li>Your Mistake Book, bookmarks, and personal notes</li>
-        <li>Any cloud-synced data stored in Firebase Firestore</li>
+        <li><strong>App-instance ID</strong>: an anonymous identifier tied to the App's installation instance.</li>
+        <li><strong>Android Advertising ID</strong>: a system-level advertising identifier that users can reset or delete in Android settings.</li>
+        <li><strong>Approximate location</strong>: country or region-level location inferred from a masked IP address; no precise GPS location is collected.</li>
+        <li><strong>App interaction events</strong>: such as screen views, quiz starts and completions, and language switches, used to analyze feature usage.</li>
+        <li><strong>Purchase history</strong>: if you make an in-app purchase, Firebase records the transaction event, including product ID and amount (no payment card information).</li>
+        <li><strong>Device and diagnostic information</strong>: device model, OS version, App version, and crash logs, used to ensure stable operation.</li>
     </ul>
 
-    <div class="note">
-        <strong>Note:</strong> Account deletion is permanent. Once processed, your data cannot be recovered. If you only wish to stop using the app, you can simply sign out or uninstall VocabCard without requesting deletion.
-    </div>
-
-    <h2>How to request deletion</h2>
-    <p>Send an email to <strong>support@vocabcard.example.com</strong> with the subject line <strong>"Account Deletion Request – VocabCard"</strong>. Please send the request from the email address associated with your VocabCard account.</p>
+    <h3>1.3 Advertising-Related Information (if ads are enabled)</h3>
     <p>
-        <a class="button" href="mailto:support@vocabcard.example.com?subject=Account%20Deletion%20Request%20%E2%80%93%20VocabCard&body=Please%20delete%20my%20VocabCard%20account%20and%20all%20associated%20data.%0A%0ARegistered%20email%3A%20%5BYour%20email%20address%5D">
-            ✉️ Request Account Deletion
-        </a>
+        If a future version of the App integrates Google AdMob or a similar advertising service, the Google Mobile Ads SDK will automatically collect and share the following data for ad delivery, analytics, and fraud prevention:
     </p>
-    <p>We will process your request within <strong>7 business days</strong> and send a confirmation once the deletion is complete.</p>
+    <ul>
+        <li>IP address (which may be used to estimate approximate location)</li>
+        <li>User product interactions (App launches, taps, video views, etc.)</li>
+        <li>Diagnostic information (launch time, hang rate, energy usage)</li>
+        <li>Device identifiers, including the Android Advertising ID and App Set ID</li>
+    </ul>
+    <p>
+        Collection of the Advertising ID is <strong>optional</strong>: users may reset or delete their Advertising ID in Android system settings, which affects personalized advertising. For child users, we do not serve behaviorally targeted ads; ads are shown only in a <strong>contextual</strong> manner.
+    </p>
 
-    <h2>Alternative: In-App Deletion</h2>
-    <p>If you still have VocabCard installed, you can delete your account immediately from within the app:</p>
-    <p><strong>Me → Settings → Account → Delete Account</strong></p>
+    <h3>1.4 Locally Stored Information (not automatically uploaded)</h3>
+    <p>
+        To provide offline learning features, the App stores the following data locally on your device. This data <strong>is not automatically uploaded to our servers</strong>:
+    </p>
+    <ul>
+        <li>Learning progress, mastery levels, wrong-word records, and bookmarks</li>
+        <li>Sticker collections and star points</li>
+        <li>Language preference, sound/vibration settings, and study reminder time</li>
+        <li>Premium (lifetime) unlock status (a local flag)</li>
+    </ul>
+    <p>
+        Uninstalling the App deletes this local data. If you have enabled Android automatic backup on your device, this data may be backed up as part of the system's backup mechanism, depending on your device settings.
+    </p>
 
-    <div class="footer">
-        If you have any questions, contact us at support@vocabcard.example.com.<br>
-        Developer: Luminary · App: VocabCard
-    </div>
+    <h2>2. How We Use Information</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Purpose</th>
+                <th>Data Involved</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Provide core learning features (flashcards, quizzes, progress tracking)</td>
+                <td>Locally stored learning data</td>
+            </tr>
+            <tr>
+                <td>Analyze feature usage and improve content and experience</td>
+                <td>Interaction events and device information collected by Firebase Analytics</td>
+            </tr>
+            <tr>
+                <td>Process in-app purchases (Premium unlock)</td>
+                <td>Purchase events (product ID, transaction status); the payment flow is handled by Google Play, and we do not access payment card information</td>
+            </tr>
+            <tr>
+                <td>Display advertising (if enabled)</td>
+                <td>Advertising ID, approximate location, device information</td>
+            </tr>
+            <tr>
+                <td>Ensure security and prevent fraud</td>
+                <td>IP address, diagnostic information, crash logs</td>
+            </tr>
+            <tr>
+                <td>Respond to your feedback</td>
+                <td>Email content and address you voluntarily send</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. How We Share Information</h2>
+    <p>
+        We <strong>do not sell</strong> your personal information. Information is shared with, or processed on our behalf by, third parties only in the following circumstances:
+    </p>
+    <ul>
+        <li>
+            <strong>Google (Firebase Analytics / AdMob)</strong>: acts as a data processor or independent controller and processes the above data in accordance with its privacy policy. See Google's Privacy Policy at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>.
+        </li>
+        <li>
+            <strong>Google Play Billing</strong>: in-app purchases are processed by Google Play and are subject to Google Play's Terms of Service and Privacy Policy.
+        </li>
+        <li>
+            <strong>Legal requirements</strong>: we may disclose necessary information if required by law, regulation, or judicial/administrative authority.
+        </li>
+    </ul>
+    <p>
+        With respect to data sent to Google by Firebase Analytics, Google's guidance treats such data as "collected" by the developer rather than "shared", because Google processes it only as our service provider following our instructions. Our declarations in the Google Play Data Safety form are consistent with this Policy.
+    </p>
+
+    <h2>4. Children's Privacy</h2>
+    <p>
+        The App is intended for child learners. We comply with the core requirements of COPPA and the Google Play Families Policy:
+    </p>
+    <ul>
+        <li>Data collected by third-party SDKs (including Firebase Analytics) is treated as our own collection under applicable law, and we are responsible for its compliance.</li>
+        <li>We do not require children to provide personal contact information such as names, email addresses, phone numbers, or precise location.</li>
+        <li>If advertising is enabled, we use only advertising SDKs certified by Google for child-directed services and restrict ads to <strong>non-personalized/contextual advertising</strong>; behavioral targeting is not used.</li>
+        <li>Parents or guardians may at any time request to review, correct, or delete their child's information through the contact details below.</li>
+    </ul>
+
+    <h2>5. Data Retention and Deletion</h2>
+    <h3>5.1 Retention Periods</h3>
+    <ul>
+        <li><strong>Local learning data</strong>: retained on your device until you clear the App's data or uninstall the App.</li>
+        <li><strong>Firebase Analytics event data</strong>: stored according to Google Analytics' standard retention settings, with a default retention period of 14 months (configurable in the Firebase console).</li>
+        <li><strong>Feedback emails</strong>: retained for no more than 12 months after the issue is resolved, unless a longer retention period is required by law.</li>
+    </ul>
+
+    <h3>5.2 Deletion Mechanisms</h3>
+    <p>
+        You may request deletion of data through the following methods:
+    </p>
+    <ul>
+        <li><strong>Local data</strong>: In Android system settings, go to "Apps → Chinese Literacy Paradise → Storage" and select "Clear data", or simply uninstall the App.</li>
+        <li><strong>Analytics data and feedback records</strong>: Send an email to the contact address below specifying the content you wish to have deleted. We will respond and process your request within <strong>30 days</strong> (unless otherwise required by law).</li>
+    </ul>
+
+    <h2>6. Data Security</h2>
+    <p>
+        Data transmitted by Firebase and the Google Mobile Ads SDK is encrypted via HTTPS. We do not store payment card information in the App; in-app purchases are handled entirely by Google Play. Although we take reasonable measures to protect information, no method of transmission or storage can be guaranteed to be absolutely secure.
+    </p>
+
+    <h2>7. International Data Transfers</h2>
+    <p>
+        Firebase Analytics and Google Play services may transfer data to Google servers located outside your country or region for processing. Google provides appropriate safeguards for cross-border data transfers through mechanisms such as Standard Contractual Clauses. By using the App, you understand and agree to such transfers.
+    </p>
+
+    <h2>8. Your Rights</h2>
+    <p>
+        Depending on the laws of your jurisdiction (such as the GDPR or CCPA), you may have the following rights:
+    </p>
+    <ul>
+        <li>To know what data we have collected about you or your child;</li>
+        <li>To request correction of inaccurate data;</li>
+        <li>To request deletion of data (subject to legal retention obligations);</li>
+        <li>To object to or restrict certain processing activities (for example, opting out of Analytics or personalized advertising);</li>
+        <li>To obtain a copy of your data (data portability).</li>
+    </ul>
+    <p>
+        To exercise these rights, please contact us using the details below. We will respond within a reasonable timeframe.
+    </p>
+
+    <h2>9. Third-Party Links</h2>
+    <p>
+        The App may contain links to third-party websites (for example, links in feedback emails). We are not responsible for the privacy practices of these third parties, and we encourage you to review their privacy policies.
+    </p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>
+        We may update this Privacy Policy from time to time. Updated versions will be posted on this page, and the "Last Updated" date at the top will be revised. If changes involve material changes in data processing practices, we will provide prominent notice within the App. Continued use of the App constitutes acceptance of the updated policy.
+    </p>
+
+    <h2>11. Contact Us</h2>
+    <p>
+        If you have any questions about this Privacy Policy or wish to exercise the rights described above, please contact our data protection contact:
+    </p>
+    <ul>
+        <li><strong>Email</strong>: <a href="mailto:privacy@yourdomain.com">privacy@yourdomain.com</a> (replace with a real email address)</li>
+        <li><strong>Developer</strong>: [Replace with your developer or company name]</li>
+        <li><strong>Mailing Address</strong>: [If applicable, fill in]</li>
+    </ul>
+    <p>
+        We typically respond to privacy-related requests within <strong>30 days</strong>.
+    </p>
+
+    <footer>
+        This Privacy Policy applies to the "Chinese Literacy Paradise" app on the Google Play Store. In the event of any discrepancy between translations, the English version shall prevail for English-speaking users; the Chinese version shall prevail for Chinese-speaking users.
+    </footer>
+
 </div>
 </body>
 </html>
